@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.sd.myimageview.QQStepView
+            android:id="@+id/step_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:step_TextColor="#000000"
+            app:step_TextSize="30sp"
+            app:step_borderWidth="10dp" />
+
+        <com.sd.myimageview.MyStepView
+            android:id="@+id/step_my"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:step_TextColor="#000000"
+            app:step_TextSize="30sp"
+            app:step_borderWidth="10dp" />
+
+        <com.sd.myimageview.ChangTextView
+            android:id="@+id/tv_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="left_to_right"
+            android:text="左到右" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="right_to_left"
+            android:text="右到左" />
+        <com.sd.myimageview.practice.CustomProgress
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/cp"/>
+    </LinearLayout>
+</ScrollView>

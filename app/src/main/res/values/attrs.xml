@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="borderRadius" format="dimension" />
+    <attr name="imageType">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="imageType" />
+    </declare-styleable>
+    <declare-styleable name="QQStepView">
+        <attr name="step_outerColor" format="color" />
+        <attr name="step_innerColor" format="color" />
+        <attr name="step_borderWidth" format="dimension" />
+        <attr name="step_TextSize" format="dimension" />
+        <attr name="step_TextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MyStepView">
+        <attr name="my_outerColor" format="color" />
+        <attr name="my_step_innerColor" format="color" />
+        <attr name="my_step_borderWidth" format="dimension" />
+        <attr name="my_step_TextSize" format="dimension" />
+        <attr name="my_step_TextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ChangTextView">
+        <attr name="originColor" format="color"/>
+        <attr name="changeColor" format="color"/>
+    </declare-styleable>
+</resources>
